@@ -388,49 +388,62 @@ footer a {
 }
 /* prova */
 
-.imgLeft {
-  position: absolute;
-}
 @media screen and (min-width: 400px) {
   .underline {
     width: 18rem;
     position: absolute;
-    bottom: 45rem;
+    bottom: 37rem;
   }
 }
 @media screen and (min-width: 435px) {
   .underline {
     width: 20rem;
     position: absolute;
-    bottom: 47.5rem;
+    bottom: 40rem;
   }
 }
 @media screen and (min-width: 452px) {
   .underline {
     width: 23rem;
     position: absolute;
-    bottom: 49.5rem;
+    bottom: 42.2rem;
   }
 }
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 700px) {
   .underline {
-    width: 35rem;
+    width: 31rem;
     position: absolute;
-    bottom: 47rem;
+    bottom: 40.2rem;
   }
 }
 @media screen and (min-width: 799px) {
   .underline {
+    width: 33rem;
+    position: absolute;
+    bottom: 40rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .underline {
     width: 35rem;
     position: absolute;
-    bottom: 50rem;
+    bottom: 42rem;
   }
 }
 @media screen and (min-width: 1068px) {
   .underline {
-    width: 54rem;
+    width: 53rem;
+    position: absolute;
+    bottom: 45rem;
+    margin-left: 144px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .underline {
+    width: 41rem;
     position: absolute;
     bottom: 53rem;
+    margin-left: 355px;
   }
 }
 .novità {
@@ -440,43 +453,70 @@ footer a {
 }
 
 .contenitore1 {
-  inset: 1rem;
+  inset: 3rem;
   height: 2rem;
   width: 2rem;
   position: absolute;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 12rem;
   margin-right: -2rem;
   background-color: #a02571;
   border-radius: 20%;
   cursor: pointer;
+  position: fixed;
 }
 .contenitore2 {
-  inset: 1rem;
+  inset: 3rem;
   height: 2rem;
   width: 2rem;
   position: absolute;
   margin: auto;
-  margin-top: 9rem;
+  margin-top: 16rem;
   margin-right: -2rem;
   background-color: #a02571;
   border-radius: 20%;
   cursor: pointer;
+  position: fixed;
 }
 .contenitore3 {
-  inset: 1rem;
+  bottom: 2rem;
+  right: 3rem;
   height: 2rem;
   width: 2rem;
   position: absolute;
   margin: auto;
-  margin-top: 13rem;
   margin-right: -2rem;
   background-color: #a02571;
   border-radius: 20%;
   cursor: pointer;
+  position: fixed;
 }
-span .tag{
+span .tag {
   width: 20px;
   height: 20px;
-
+}
+img.imgLeft {
+  float: left;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#primoTag {
+  font-size: 5rem;
+  float: right;
+  opacity: 0.1;
+  height: 1rem;
+}
+.fa-plus:before, .fa-calendar-alt:before{
+  /* content: "\f067"; */
+  position: relative;
+  left: 70%;
+}
+.fa-angle-up:before{
+  position: relative;
+  left: 70%;
+  font-size:23px ;
 }
